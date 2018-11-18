@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Festivales</title>
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+      <script src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html">Festivales</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Nacionales
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Festivales nacionales</a>
+                  <a class="dropdown-item" href="festivalesNacionalesTop.html">Top de festivales nacionales</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Internacionales
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <a class="dropdown-item" href="festivalesInternacionalesMejores.html">Festivales internacionales</a>
+                  <a class="dropdown-item" href="festivalesInternacionalesTop.html">Top de festivales internacionales por asistencia</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proximasFechas.html">Próximas fechas</a>
+              </li>
+            </ul>
+            <div class="form-inline my-2 my-md-0">
+              <label for="input-search">Buscador</label>
+              <input class="form-control" type="search" placeholder="Buscar" id="input-search">
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="content-search">
+        <div class="table-responsive content-table">
+          <table class="table" id="table" title="Buscador" aria-label="buscador">
+            <thead>
+              <tr><td></td></tr>
+            </thead>
+            <tbody>
+              <tr><td><a href="festivalesNacionalesMejores.html">Festivales nacionales</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html">Festivales internacionales</a></td></tr>
+              <tr><td><a href="festivalesNacionalesTop.html">Top de festivales nacionales</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesTop.html">Top de festivales internacionales por asistencia</a></td></tr>
+              <tr><td><a href="proximasFechas.html">Próximas fechas</a></td></tr>
+              <tr><td><a href="festivalesNacionalesMejores.html#arenalSound">Arenal Sound</a></td></tr>
+              <tr><td><a href="festivalesNacionalesMejores.html#fib">Festival Internacional de Benicasim</a></td></tr>
+              <tr><td><a href="festivalesNacionalesMejores.html#primaveraSound">Primavera Sound</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html#tomorrowland">Tomorrowland</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html#glas">Glanstonbury</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html#coachella">Coachella</a></td></tr>
+              <tr><td><a href="proximasFechas.html#destacados">Destacados</a></td></tr>
+              <tr><td><a href="proximasFechas.html#masFechas">Más fechas</a></td></tr>
+           
+            </tbody>
+          </table>
+        </div>
+    </div>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+        <li class="breadcrumb-item"><a href="#">Nacionales</a></li>
+        <li class="breadcrumb-item active">Festivales nacionales</li>
+      </ol>
+
+      <section>
+          <div class="container">
+
+        <h1>Los festivales nacionales más importantes</h1>
+        <article id="arenalSound">
+
+            <img src="./multimedia/arenalSound2018.jpg" alt="Arenal Sound" class="img-responsive img-thumbnail rounded"/>
+            <header>
+              <h3>Arenal Sound</h3>
+            </header>
+            <p>Arenal Sound es un festival que se desarrolla cada año en Burriana, Valencia, al que acuden miles de jóvenes
+              con ganas de divertirse. A lo largo de 9 ediciones son miles y miles los jovenes que han pasado por sus escenarios,
+             sus playas, y han descubierto la magia de este festival. El año que viene se enfrentan a su décima edición y
+           prometen crear algo inigualable.</p>
+           <p><strong>¿Cuándo se celebra? </strong>Del 30 de julio al 4 de agosto de 2019</p>
+           <p><strong>¿Dónde se celebra? </strong>Burriana</p>
+          <span><a href="http://www.arenalsound.com">Página web del festival</a></span>
+
+        </article>
+        <article id="fib">
+            <img src="./multimedia/fib.jpg" alt="FIB" class="img-responsive img-thumbnail rounded"/>
+            <header>
+              <h3>Festival Internacional de Benicasim</h3>
+            </header>
+            <p>FIB esta posicionado como uno de los festivales más importantes en el panorama nacional. Es uno de los festivales nacionales
+            con mayor afluencia de público y que se posiciona como uno de los carteles más fuertes año tras año.</p>
+            <p><strong>¿Cuándo se celebra? </strong>Del 18 al 21 de julio de 2019</p>
+            <p><strong>¿Dónde se celebra? </strong>Valencia</p>
+            <span><a href="https://www.fiberfib.com">Página web del festival</a></span>
+          </article>
+          <article id="primaveraSound">
+              <img src="./multimedia/primaveraSound.jpg" alt="FIB" height="250" width="250"/>
+              <header>
+                <h3>Primavera Sound</h3>
+              </header>
+              <p>El Primavera Sound es un festival que se celebra cada año en Cataluña a miles de personas. Con artistas en sus filas
+              de la talla de Kendrick Lamar, Justice o Daft Punk es uno de lo más aclamados por el público.</p>
+              <p><strong>¿Cuándo se celebra? </strong>Del 30 de mayo al 1 de junio de 2019</p>
+              <p><strong>¿Dónde se celebra? </strong>Barcelona</p>
+              <span><a href="https://www.primaverasound.com">Página web del festival</a></span>
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer">
+     <div class="container">
+        <span class="text-muted">
+          Festivales - Universidad de Oviedo (Máster en Ingeniería Web)
+        </span>
+      </div>
+    </footer>
+
+    <script src="./js/javascript.js"></script>
+
+  </body>
+</html>

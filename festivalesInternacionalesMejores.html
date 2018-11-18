@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Festivales</title>
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+      <script src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+
+  </head>
+  <body>
+
+
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html">Festivales</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Nacionales
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="festivalesNacionalesMejores.html">Festivales nacionales</a>
+                  <a class="dropdown-item" href="festivalesNacionalesTop.html">Top de festivales nacionales</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Internacionales
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <a class="dropdown-item" href="#">Festivales internacionales</a>
+                  <a class="dropdown-item" href="festivalesInternacionalesTop.html">Top de festivales internacionales por asistencia</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proximasFechas.html">Próximas fechas</a>
+              </li>
+            </ul>
+            <div class="form-inline my-2 my-md-0">
+              <label for="input-search">Buscador</label>
+              <input class="form-control" type="search" placeholder="Buscar" id="input-search">
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="content-search">
+        <div class="table-responsive content-table">
+          <table class="table" id="table" title="Buscador" aria-label="buscador">
+            <thead>
+              <tr><td></td></tr>
+            </thead>
+            <tbody>
+              <tr><td><a href="festivalesNacionalesMejores.html">Festivales nacionales</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html">Festivales internacionales</a></td></tr>
+              <tr><td><a href="festivalesNacionalesTop.html">Top de festivales nacionales</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesTop.html">Top de festivales internacionales por asistencia</a></td></tr>
+              <tr><td><a href="proximasFechas.html">Próximas fechas</a></td></tr>
+              <tr><td><a href="festivalesNacionalesMejores.html#arenalSound">Arenal Sound</a></td></tr>
+              <tr><td><a href="festivalesNacionalesMejores.html#fib">Festival Internacional de Benicasim</a></td></tr>
+              <tr><td><a href="festivalesNacionalesMejores.html#primaveraSound">Primavera Sound</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html#tomorrowland">Tomorrowland</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html#glas">Glanstonbury</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html#coachella">Coachella</a></td></tr>
+              <tr><td><a href="proximasFechas.html#destacados">Destacados</a></td></tr>
+              <tr><td><a href="proximasFechas.html#masFechas">Más fechas</a></td></tr>
+           
+            </tbody>
+          </table>
+        </div>
+    </div>
+
+
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+        <li class="breadcrumb-item"><a href="#">Internacionales</a></li>
+        <li class="breadcrumb-item active">Festivales internacionales</li>
+      </ol>
+
+        <section>
+            <div class="container">
+        <h1>Los festivales internacionales más reconocidos</h1>
+        <article id="tomorrowland">
+          <img src="./multimedia/tomorrowland.jpg" alt="Tomorrowland" height="300" width="300"/>
+          <header>
+            <h3>Tomorrowland</h3>
+          </header>
+          <p>Tomorrowland, es un festival que se celebra en Bélgica, en la ciudad de Boom, y que es el sueño de mucha gente. Su eslogan
+          'Live Today, Love Tomorrow, Unite Forever' marca una forma de vida para mucha gente. La gran cantidad de artistas principalmente
+        ligados a la electrónica que pasan por sus animados escenarios hacen de este un festival único en el mundo.</p>
+          <p><strong>¿Cuándo se celebra? </strong>Julio de 2019</p>
+          <p><strong>¿Dónde se celebra? </strong>Boom, Bélgica</p>
+          <span><a href="https://www.tomorrowland.com/global/">Página web del festival</a></span>
+        </article>
+        <article id="glas">
+            <img src="./multimedia/glastonbury.jpg" alt="Glanstonbury" height="250" width="250"/>
+          <header>
+            <h3>Glanstonbury</h3>
+          </header>
+          <p>Glanstonbury es uno de los festivales referentes a nivel internacional que se celebra en Gran Bretaña cada Junio.</p>
+          <p><strong>Cuándo se celebra? </strong>Del 26 al 30 de junio de 2019</p>
+          <p><strong>Dónde se celebra? </strong>Bristol, Inglaterra</p>
+          <span><a href="https://www.glastonburyfestivals.co.uk">Página web del festival</a></span>
+        </article>
+        <article id="coachella">
+            <img src="./multimedia/coachella2.jpg" alt="Glanstonbury" height="250" width="250"/>
+          <header>
+            <h3>Coachella</h3>
+          </header>
+          <p>Coachella es un festival diferente, en el que la música es muy importante, pero no es lo todo. La gran cantidad
+          de personalidades que asisten, la forma de vestir y hasta el más mínimo detalle importa en este festival. Aún así,
+        artistas de la talla de Ed Sheeran o Katy Perry han actuado en el MainStage de este festival.</p>
+          <p><strong>Cuándo se celebra? </strong>Del 12 al 21 de abril de 2019</p>
+          <p><strong>Dónde se celebra? </strong>California, Estados Unidos</p>
+          <span><a href="https://www.coachella.com/">Página web del festival</a></span>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">
+          Festivales - Universidad de Oviedo (Máster en Ingeniería Web)
+        </span>
+      </div>
+    </footer>
+
+    <script src="./js/javascript.js"></script>
+
+  </body>
+</html>

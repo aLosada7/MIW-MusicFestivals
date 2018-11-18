@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Festivales</title>
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+      <script src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html">Festivales</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Nacionales
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="festivalesNacionalesMejores.html">Festivales nacionales</a>
+                  <a class="dropdown-item" href="#">Top de festivales nacionales</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Internacionales
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <a class="dropdown-item" href="festivalesInternacionalesMejores.html">Festivales internacionales</a>
+                  <a class="dropdown-item" href="festivalesInternacionalesTop.html">Top de festivales internacionales por asistencia</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proximasFechas.html">Próximas fechas</a>
+              </li>
+            </ul>
+            <div class="form-inline my-2 my-md-0">
+              <label for="input-search">Buscador</label>
+              <input class="form-control" type="search" placeholder="Buscar" id="input-search">
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="content-search">
+        <div class="table-responsive content-table">
+          <table class="table" id="table" title="Buscador" aria-label="buscador">
+            <thead>
+              <tr><td></td></tr>
+            </thead>
+            <tbody>
+              <tr><td><a href="festivalesNacionalesMejores.html">Festivales nacionales</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html">Festivales internacionales</a></td></tr>
+              <tr><td><a href="festivalesNacionalesTop.html">Top de festivales nacionales</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesTop.html">Top de festivales internacionales por asistencia</a></td></tr>
+              <tr><td><a href="proximasFechas.html">Próximas fechas</a></td></tr>
+              <tr><td><a href="festivalesNacionalesMejores.html#arenalSound">Arenal Sound</a></td></tr>
+              <tr><td><a href="festivalesNacionalesMejores.html#fib">Festival Internacional de Benicasim</a></td></tr>
+              <tr><td><a href="festivalesNacionalesMejores.html#primaveraSound">Primavera Sound</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html#tomorrowland">Tomorrowland</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html#glas">Glanstonbury</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html#coachella">Coachella</a></td></tr>
+              <tr><td><a href="proximasFechas.html#destacados">Destacados</a></td></tr>
+              <tr><td><a href="proximasFechas.html#masFechas">Más fechas</a></td></tr>
+           
+            </tbody>
+          </table>
+        </div>
+    </div>
+
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+      <li class="breadcrumb-item"><a href="#">Nacionales</a></li>
+      <li class="breadcrumb-item active">Top de festivales nacionales</li>
+    </ol>
+
+    <section>
+      <div class="container">
+        <h1>Top festivales nacionales por asistencia</h1>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Puesto</th>
+                <th>Nombre del festival</th>
+                <th>Localización</th>
+                <th>Duración (días)</th>
+                <th>Asistencia diaria</th>
+                <th>Asistencia total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>#1</td>
+                <td>Viña Rock</td>
+                <td>Villarobledo</td>
+                <td>3</td>
+                <td>66.000</td>
+                <td>200.000</td>
+              </tr>
+              <tr>
+                <td>#2</td>
+                <td>Medusa</td>
+                <td>Valencia</td>
+                <td>3</td>
+                <td>55.000</td>
+                <td>165.000</td>
+              </tr>
+              <tr>
+                <td>#3</td>
+                <td>Arenal Sound</td>
+                <td>Burriana</td>
+                <td>6</td>
+                <td>52.000</td>
+                <td>200.000</td>
+              </tr>
+              <tr>
+                <td>#4</td>
+                <td>Primavera Sound</td>
+                <td>Madrid</td>
+                <td>4</td>
+                <td>44.000</td>
+                <td>200.000</td>
+              </tr>
+              <tr>
+                <td>#5</td>
+                <td>FIB</td>
+                <td>Benicasim</td>
+                <td>3</td>
+                <td>41.000</td>
+                <td>177.000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      </section>
+
+      <footer class="footer corto">
+       <div class="container">
+        <span class="text-muted">
+          Festivales - Universidad de Oviedo (Máster en Ingeniería Web)
+        </span>
+      </div>
+      </footer>
+
+    <script src="./js/javascript.js"></script>
+
+  </body>
+</html>

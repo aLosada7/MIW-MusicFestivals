@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Festivales</title>
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+      <script src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html">Festivales</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Nacionales
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="festivalesNacionalesMejores.html">Festivales nacionales</a>
+                  <a class="dropdown-item" href="#">Top de festivales nacionales</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Internacionales
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                  <a class="dropdown-item" href="festivalesInternacionalesMejores.html">Festivales internacionales</a>
+                  <a class="dropdown-item" href="festivalesInternacionalesTop.html">Top de festivales internacionales por asistencia</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proximasFechas.html">Próximas fechas</a>
+              </li>
+            </ul>
+            <div class="form-inline my-2 my-md-0">
+              <label for="input-search">Buscador</label>
+              <input class="form-control" type="search" placeholder="Buscar" id="input-search">
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="content-search">
+        <div class="table-responsive content-table">
+          <table class="table" id="table" title="Buscador" aria-label="buscador">
+            <thead>
+              <tr><td></td></tr>
+            </thead>
+            <tbody>
+              <tr><td><a href="festivalesNacionalesMejores.html">Festivales nacionales</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html">Festivales internacionales</a></td></tr>
+              <tr><td><a href="festivalesNacionalesTop.html">Top de festivales nacionales</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesTop.html">Top de festivales internacionales por asistencia</a></td></tr>
+              <tr><td><a href="proximasFechas.html">Próximas fechas</a></td></tr>
+              <tr><td><a href="festivalesNacionalesMejores.html#arenalSound">Arenal Sound</a></td></tr>
+              <tr><td><a href="festivalesNacionalesMejores.html#fib">Festival Internacional de Benicasim</a></td></tr>
+              <tr><td><a href="festivalesNacionalesMejores.html#primaveraSound">Primavera Sound</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html#tomorrowland">Tomorrowland</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html#glas">Glanstonbury</a></td></tr>
+              <tr><td><a href="festivalesInternacionalesMejores.html#coachella">Coachella</a></td></tr>
+              <tr><td><a href="proximasFechas.html#destacados">Destacados</a></td></tr>
+              <tr><td><a href="proximasFechas.html#masFechas">Más fechas</a></td></tr>
+           
+            </tbody>
+          </table>
+        </div>
+    </div>
+
+
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1>Festivales</h1>
+          <p>Da igual el momento pero los festivales alegran a todos y a todas. La experiencia, el inicio del verano,
+            la música o simplemente las ganas de fiesta hacen que cualquiera este esperando que llegue su momento preferido del año.</p>
+          <p>En España, Viña Rock, Arenal Sound o FIB corresponden a las necesidades de miles de jovenes y no tan
+            jovenes cada año. A nivel mundial, otros como Tomorrowland o UMF son tambien ampliamente sonados.</p>
+        </div>
+      </section>
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6 col-sm-4">
+              <figure>
+              <img src="./multimedia/arenalSound2018.jpg" alt="Imagen del festival Arenal Sound" class="img-responsive img-thumbnail rounded"/><figcaption>Arenal Sound 2018</figcaption>
+              </figure>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+              <figure>
+              <img src="./multimedia/tomorrowland2017.jpg" alt="Imagen del festival Tomorrowland" class="img-responsive img-thumbnail rounded"/><figcaption>Tomorrowland 2017</figcaption>
+              </figure>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+              <figure>
+              <img src="./multimedia/glastonbury.jpg" alt="Imagen del festival Glanstonbury" class="img-responsive img-thumbnail rounded"/><figcaption>Glanstonbury</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-xs-6 col-sm-4">
+              <figure>
+              <img src="./multimedia/coachella.jpg" alt="Imagen del festival Coachella" class="img-responsive img-thumbnail rounded"/><figcaption>Coachella</figcaption>
+              </figure>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+              <figure>
+              <img src="./multimedia/dona.jpg" alt="Imagen del festival Donauinselfest" class="img-responsive img-thumbnail rounded"/><figcaption>Donauinselfest</figcaption>
+              </figure>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+              <figure>
+              <img src="./multimedia/rir.jpg" alt="Imagen del festival Rock in Rio" class="img-responsive img-thumbnail rounded"/><figcaption>Rock in Rio</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+
+   <footer class="footer">
+     <div class="container">
+        <span class="text-muted">
+          Festivales - Universidad de Oviedo (Máster en Ingeniería Web)
+        </span>
+      </div>
+    </footer>
+
+    <script src="./js/javascript.js"></script>
+  </body>
+</html>
